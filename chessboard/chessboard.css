@@ -1,0 +1,18 @@
+.chessboard {
+    border-collapse: collapse;
+}
+
+.chessboard td {
+    border: 1px solid gray;
+    width: 20px;
+    height: 20px;
+    padding: 0px;
+}
+
+.chessboard td.black {
+    background-color: black;
+}
+
+.chessboard td.white {
+    background-color: white;
+}
