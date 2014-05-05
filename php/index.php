@@ -72,7 +72,41 @@
     }
     
     ?>
+    <hr />
+    <p>Example 4:</p>
+    <?php
+    $a = 4; //$c = 0;
+    for ($b = 0; $b <= $a; ++$b) {
+        $c++;
+    }
+    //var_dump($c);
+    echo '<p>' . $c . '</p>';
+
     
-      
+    $a = 'abc';
+    $b = substr($a, 0, -1);
+    echo '<p>' . $b . '</p>';
+    
+    $a = '1';
+    $b = &$a;
+    
+    echo '<p>' . $b . '</p>';
+    
+    $b = "2$a";
+    echo '<p>' . $b . '</p>';
+    
+    $a = "a";
+    $b = "b";
+    
+    echo '<p>' . ${$b} . '</p>';
+    
+    ?>
+    
+    <hr />
+    <p>Example 5:</p>
+    
+    
+    
+    
   </body>    
 </html>
